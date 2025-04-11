@@ -8,8 +8,6 @@
     "build": "vite build --base=/goit-js-hw-10/",
     "preview": "vite preview"
   },
-  "author": "Marina",
-  "license": "ISC",
   "devDependencies": {
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
