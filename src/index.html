@@ -2,22 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>HW 10 Navigation</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font-size: 20px;
+        font-weight: 600;
+        max-width: 300px;
+        margin: 50px auto;
+      }
+
+      a {
+        text-decoration: none;
+        color: #4e75ff;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <ul>
+      <li><a href="./1-timer.html"> Timer</a></li>
+      <li><a href="./2-snackbar.html"> Snackbar (Promises)</a></li>
+    </ul>
   </body>
 </html>
